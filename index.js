@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { render } from 'react-dom';
 import Hello from './Hello';
 import './style.css';
-import Button from './Components/Button';
+// import Button from './Components/Button';
 class App extends Component {
   constructor() {
     super();
@@ -36,6 +36,6 @@ class App extends Component {
 render(
   <div>
   <App/>
-  <Button/>
+
 
 </div>, document.getElementById('root'));
